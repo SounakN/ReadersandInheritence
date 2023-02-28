@@ -6,8 +6,8 @@ import java.util.regex.Pattern;
 public class StringRegex {
 
     public static void main(String[] args) {
-        String val = "?1";
-        Pattern p = Pattern.compile("^[\\W][\\s][\\d]$");
+        String val = "? 1";
+        Pattern p = Pattern.compile("[\\W][\\s][\\d]$");
         Matcher m = p.matcher(val);
         boolean c = p.matcher(val).find();
 

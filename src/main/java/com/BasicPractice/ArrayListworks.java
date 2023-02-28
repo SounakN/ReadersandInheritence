@@ -9,9 +9,14 @@ public class ArrayListworks {
       /*  Set c = new TreeSet(Collections.reverseOrder());
         c.addAll(x);
 
+
+
         Collections.sort(x,Collections.reverseOrder());
         System.out.println(x);
         System.out.println(c);*/
+
+        Set<String> c = new TreeSet<String>(x);
+        System.out.println(c);
 
         for(int i =0;i<x.size();i++){
             String temp = null;
